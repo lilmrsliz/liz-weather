@@ -117,8 +117,6 @@ body {
 .current-details { flex: 1; min-width: 200px; }
 .detail-row { padding: 5px 0; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
 .detail-row:last-child { border-bottom: none; }
-.nws-label { font-size: 0.7rem; color: var(--text-dim); font-weight: 600; margin-left: 6px; }
-.nws-row { color: var(--text); font-weight: 700; }
 .hour-freezing { border-color: #4cc9f040; background: #081828; }
 
 /* ── NWS forecast text ── */
