@@ -130,6 +130,15 @@ body {
 .aq-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
 .aq-pill { background: var(--surface2); border-radius: 20px; padding: 5px 14px; font-size: 0.85rem; }
 
+/* ── MCAS breakdown ── */
+.mcas-breakdown { border-radius: var(--radius-sm); padding: 10px 14px; background: var(--surface2); margin-top: 10px; }
+.mcas-breakdown-header { display: flex; align-items: baseline; gap: 4px; }
+.mcas-factors, .mcas-good-factors { display: flex; flex-direction: column; gap: 3px; }
+.mcas-factor-row { display: flex; align-items: flex-start; gap: 8px; font-size: 0.82rem; padding: 2px 0; }
+.mcas-factor-icon { min-width: 18px; }
+.mcas-factor-text { line-height: 1.4; }
+.mcas-good .mcas-factor-text { font-size: 0.8rem; }
+
 /* ── Hourly scroll ── */
 .hourly-scroll { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
 .hourly-scroll::-webkit-scrollbar { height: 4px; }
