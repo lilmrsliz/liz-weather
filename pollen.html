@@ -66,6 +66,25 @@ table.cal td.cal-label{font-size:0.72rem;font-weight:700;color:#c8cedf;white-spa
 .cal-cell.cur-month{outline:2px solid #ffffff35;outline-offset:-2px;border-radius:4px}
 .cal-note{font-size:0.72rem;color:#5a6180;margin-top:10px;font-style:italic;line-height:1.5}
 
+/* Mold section */
+.mold-header-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.mold-overall-pill{font-size:0.8rem;font-weight:800;border-radius:20px;padding:6px 14px;border:1px solid}
+.mold-mcas-note{background:#1a1528;border:1px solid #9b6b7a40;border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.mold-mcas-note-title{font-size:0.75rem;font-weight:800;text-transform:uppercase;letter-spacing:0.1em;color:#c4818f;margin-bottom:6px}
+.mold-mcas-note-text{font-size:0.78rem;color:#9ba3bc;line-height:1.6}
+.mold-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.mold-card{background:#111320;border:1px solid #9b6b7a28;border-radius:14px;padding:16px}
+.mold-card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:10px;gap:8px}
+.mold-card-name{font-size:0.9rem;font-weight:800;line-height:1.3}
+.mold-season-badge{font-size:0.66rem;font-weight:800;color:#c4818f;background:#c4818f15;border:1px solid #c4818f30;border-radius:8px;padding:2px 7px;white-space:nowrap;flex-shrink:0}
+.mold-card-note{font-size:0.76rem;color:#9ba3bc;line-height:1.55;margin-top:8px}
+.mold-spikes-row{font-size:0.73rem;color:#7b8cc4;line-height:1.5;margin-top:7px;padding-top:7px;border-top:1px solid #ffffff0d}
+.mold-spikes-label{font-weight:800;color:#8899cc}
+.mold-card-meta{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap;align-items:center}
+.mold-allerg-pill{font-size:0.68rem;font-weight:800;border-radius:10px;padding:2px 8px}
+.mold-mcas-pill{font-size:0.68rem;font-weight:800;background:#9b6b7a20;border:1px solid #9b6b7a40;border-radius:10px;padding:2px 8px;color:#d4a0b8}
+.mold-cal-note{font-size:0.72rem;color:#5a6180;margin-top:10px;font-style:italic;line-height:1.5}
+
 .page-footer{font-size:0.72rem;color:#5a6180;text-align:center;margin-top:40px}
 
 @media(max-width:600px){
@@ -102,7 +121,7 @@ table.cal td.cal-label{font-size:0.72rem;font-weight:700;color:#c8cedf;white-spa
         <div class="gauge-lbl" style="color:#ef4444">High</div>
       </div>
     </div>
-    <div class="updated-sub">Updated Mar 23, 2026, 3:36 PM</div>
+    <div class="updated-sub">Updated Mar 23, 2026, 3:48 PM</div>
 
     
     <div class="predom-label">Predominant allergens</div>
@@ -228,6 +247,146 @@ table.cal td.cal-label{font-size:0.72rem;font-weight:700;color:#c8cedf;white-spa
 </div>
   </div>
 
+  <!-- ── Mold & Fungal Spores ── -->
+  <div class="section-label" style="margin-top:42px">🍄 Mold &amp; Fungal Spores</div>
+
+  <div class="mold-header-row">
+    <div style="font-size:0.85rem;color:#9ba3bc;max-width:600px;line-height:1.5">
+      Mold spores are airborne year-round in Indiana. Unlike pollen, which has defined seasons, mold responds to moisture and temperature — a single rain event or a pile of decaying leaves can release billions of spores in hours.
+    </div>
+    <div class="mold-overall-pill" style="color:#facc15;background:#facc1518;border-color:#facc1540">
+      🍄 Mold Load: Medium
+    </div>
+  </div>
+
+  <div class="mold-mcas-note">
+    <div class="mold-mcas-note-title">MCAS Connection</div>
+    <div class="mold-mcas-note-text">
+      Mold spores are a confirmed mast cell trigger for Liz. Fungal antigens bind IgE receptors on mast cells and cause degranulation — the same mechanism as pollen allergy, but with different timing and different avoidance strategies. Mold spores are smaller than most pollen grains and penetrate deeper into airways. High mold load days compound histamine burden, especially when active pollen is also present. Indoor mold (Aspergillus/Penicillium from basements, HVAC, mulch) contributes a baseline year-round load distinct from seasonal outdoor spore peaks. Quercetin — already part of Liz's supplement protocol — functions as a mast cell stabilizer and helps buffer both pollen and mold reactions.
+    </div>
+  </div>
+
+  <div class="mold-grid">
+    <div class="mold-card">
+  <div class="mold-card-top">
+    <div class="mold-card-name">🍄 Alternaria</div>
+    <span class="mold-season-badge">◌ Seasonal</span>
+  </div>
+  <div class="bar-row">
+    <span style="color:#a3e635">Low-Med — Low this month</span>
+    <span style="color:#5a6180">2.5/10</span>
+  </div>
+  <div class="bar-track"><div class="bar-fill" style="width:25%;background:#a3e635"></div></div>
+  <div class="mold-card-note">One of the most potent outdoor mold allergens worldwide. A known mast cell trigger — spores are small enough to reach deep into the lungs. Found on dead plant material, soil, and grain crops across Indiana all summer. Strongly linked to asthma exacerbations, especially in children. For MCAS, Alternaria spore bursts (after mowing, after rain on dry leaves) can cause immediate-onset reactions.</div>
+  <div class="mold-spikes-row"><span class="mold-spikes-label">Spikes when: </span>Surges sharply after rain following a dry spell, after lawn mowing, and when harvesting corn and soybean fields in fall. Wind dispersal — spores travel miles.</div>
+  <div class="mold-card-meta">
+    <span class="mold-allerg-pill" style="color:#ef4444;background:#ef444415;border:1px solid #ef444430">Severe allergen</span>
+    <span class="meta-pill">📅 July – September</span>
+    <span class="mold-mcas-pill">⚠️ MCAS trigger</span>
+  </div>
+</div><div class="mold-card">
+  <div class="mold-card-top">
+    <div class="mold-card-name">🍃 Cladosporium</div>
+    <span class="mold-season-badge">◌ Seasonal</span>
+  </div>
+  <div class="bar-row">
+    <span style="color:#a3e635">Low-Med — Low this month</span>
+    <span style="color:#5a6180">2.5/10</span>
+  </div>
+  <div class="bar-track"><div class="bar-fill" style="width:25%;background:#a3e635"></div></div>
+  <div class="mold-card-note">The most abundant outdoor mold in the world by spore count. Thrives on living and dead plant surfaces — virtually every leaf, stem, and piece of decaying wood in Indiana carries it. Moderate allergenicity per spore, but sheer volume makes it a continuous summer load. Cross-reacts with Alternaria in sensitized people.</div>
+  <div class="mold-spikes-row"><span class="mold-spikes-label">Spikes when: </span>Peaks on warm, dry, windy days — spores are actively discharged when humidity drops after rain. Also high after leaf fall begins in September and October.</div>
+  <div class="mold-card-meta">
+    <span class="mold-allerg-pill" style="color:#facc15;background:#facc1515;border:1px solid #facc1530">Moderate allergen</span>
+    <span class="meta-pill">📅 June – September</span>
+    <span class="mold-mcas-pill">⚠️ MCAS trigger</span>
+  </div>
+</div><div class="mold-card">
+  <div class="mold-card-top">
+    <div class="mold-card-name">🌫️ Aspergillus / Penicillium</div>
+    <span class="mold-season-badge">◌ Seasonal</span>
+  </div>
+  <div class="bar-row">
+    <span style="color:#facc15">Medium — Moderate this month</span>
+    <span style="color:#5a6180">5.0/10</span>
+  </div>
+  <div class="bar-track"><div class="bar-fill" style="width:50%;background:#facc15"></div></div>
+  <div class="mold-card-note">Year-round indoor and outdoor molds — Aspergillus and Penicillium spores are nearly always present in Indiana air at some level. Both thrive in damp conditions: basements, mulch piles, compost, HVAC systems, and damp soil. Aspergillus can colonize sinuses in MCAS patients (fungal sinusitis) and worsen nasal histamine load persistently.</div>
+  <div class="mold-spikes-row"><span class="mold-spikes-label">Spikes when: </span>Highest after late-season rains in October–November when temperatures are still warm enough for growth. Compost piles and mulched garden beds are major point sources. Also elevated indoors in winter if any moisture intrusion exists.</div>
+  <div class="mold-card-meta">
+    <span class="mold-allerg-pill" style="color:#facc15;background:#facc1515;border:1px solid #facc1530">Moderate allergen</span>
+    <span class="meta-pill">📅 Year-round, peaks Oct – Nov</span>
+    <span class="mold-mcas-pill">⚠️ MCAS trigger</span>
+  </div>
+</div><div class="mold-card">
+  <div class="mold-card-top">
+    <div class="mold-card-name">🌾 Fusarium</div>
+    <span class="mold-season-badge">◌ Seasonal</span>
+  </div>
+  <div class="bar-row">
+    <span style="color:#a3e635">Low-Med — Low this month</span>
+    <span style="color:#5a6180">2.5/10</span>
+  </div>
+  <div class="bar-track"><div class="bar-fill" style="width:25%;background:#a3e635"></div></div>
+  <div class="mold-card-note">Primarily a grain and soil mold — common in Indiana's corn and soybean fields during spring planting and early summer. Less potent as an airborne allergen than Alternaria or Cladosporium but can spike dramatically near agricultural areas during crop disturbance. Also found on grasses and decomposing plant matter.</div>
+  <div class="mold-spikes-row"><span class="mold-spikes-label">Spikes when: </span>Highest during spring field work — tilling, planting, and spraying disturb soil and release spores. Also elevated near grain storage facilities.</div>
+  <div class="mold-card-meta">
+    <span class="mold-allerg-pill" style="color:#4ade80;background:#4ade8015;border:1px solid #4ade8030">Mild allergen</span>
+    <span class="meta-pill">📅 April – June</span>
+    <span class="mold-mcas-pill">⚠️ MCAS trigger</span>
+  </div>
+</div><div class="mold-card">
+  <div class="mold-card-top">
+    <div class="mold-card-name">🌽 Smuts & Rusts</div>
+    <span class="mold-season-badge">◌ Seasonal</span>
+  </div>
+  <div class="bar-row">
+    <span style="color:#4ade80">Low — None this month</span>
+    <span style="color:#5a6180">0.0/10</span>
+  </div>
+  <div class="bar-track"><div class="bar-fill" style="width:0%;background:#4ade80"></div></div>
+  <div class="mold-card-note">Fungal pathogens of grain crops — corn smut and wheat rust are present in Indiana from late spring through fall harvest. Spore counts near corn and wheat fields can be very high in summer. Moderate allergenicity but locally significant, especially in rural Elkhart County and the agricultural areas surrounding Bristol.</div>
+  <div class="mold-spikes-row"><span class="mold-spikes-label">Spikes when: </span>Peaks during warm, humid summer weather when corn is maturing. Harvest season in September–October releases large spore pulses. Wind carries spores miles from source fields.</div>
+  <div class="mold-card-meta">
+    <span class="mold-allerg-pill" style="color:#4ade80;background:#4ade8015;border:1px solid #4ade8030">Mild allergen</span>
+    <span class="meta-pill">📅 June – September</span>
+    <span class="mold-mcas-pill">⚠️ MCAS trigger</span>
+  </div>
+</div>
+  </div>
+
+  <!-- ── Mold Calendar ── -->
+  <div class="section-label" style="margin-top:36px">Indiana Mold Calendar</div>
+  <div class="cal-wrap">
+  <table class="cal">
+    <thead>
+      <tr>
+        <th></th>
+        <th class="">Jan</th><th class="">Feb</th><th class="cur">Mar ▾</th><th class="">Apr</th><th class="">May</th><th class="">Jun</th><th class="">Jul</th><th class="">Aug</th><th class="">Sep</th><th class="">Oct</th><th class="">Nov</th><th class="">Dec</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+    <td class="cal-label">🍄 Alternaria</td>
+    <td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell cur-month" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#ef4444cc;color:#fff">Peak</div></td><td><div class="cal-cell" style="background:#ef4444cc;color:#fff">Peak</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td>
+  </tr><tr>
+    <td class="cal-label">🍃 Cladosporium</td>
+    <td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell cur-month" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#ef4444cc;color:#fff">Peak</div></td><td><div class="cal-cell" style="background:#ef4444cc;color:#fff">Peak</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td>
+  </tr><tr>
+    <td class="cal-label">🌫️ Aspergillus </td>
+    <td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell cur-month" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td>
+  </tr><tr>
+    <td class="cal-label">🌾 Fusarium</td>
+    <td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell cur-month" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td>
+  </tr><tr>
+    <td class="cal-label">🌽 Smuts &</td>
+    <td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell cur-month" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#fb923ca0;color:#fff">High</div></td><td><div class="cal-cell" style="background:#facc1560;color:#fff">Mod</div></td><td><div class="cal-cell" style="background:#4ade8030;color:#555">Low</div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td><td><div class="cal-cell" style="background:#1a1a2e;color:#555"></div></td>
+  </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="mold-cal-note">Seasonal mold spore estimates for Indiana based on regional aerobiology data. No live mold data is available from Open-Meteo — all mold readings are historical calendar estimates. Actual counts vary significantly with recent rainfall, temperature swings, local vegetation, and proximity to agricultural fields.</div>
+
   <!-- ── Year Calendar ── -->
   <div class="section-label">Indiana Pollen Calendar</div>
   <div class="cal-wrap">
@@ -281,7 +440,7 @@ table.cal td.cal-label{font-size:0.72rem;font-weight:700;color:#c8cedf;white-spa
   </div>
   <div class="cal-note">Historical seasonal estimates for Indiana &amp; Missouri based on multi-year pollen monitoring data. ● Live types updated every 20 minutes from Open-Meteo Air Quality API. ◌ Seasonal types show expected intensity for this month based on historical patterns — no live data available for these species.</div>
 
-  <div class="page-footer">Pollen report generated Mar 23, 2026, 3:36 PM · Part of Liz's Weather Dashboard</div>
+  <div class="page-footer">Pollen report generated Mar 23, 2026, 3:48 PM · Part of Liz's Weather Dashboard</div>
 
 </div>
 </body>
