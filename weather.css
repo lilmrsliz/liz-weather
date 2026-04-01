@@ -223,6 +223,22 @@ body {
 
 /* ── Earthquakes ── */
 .eq-list { display: flex; flex-direction: column; gap: 8px; }
+/* ── Space Weather ── */
+.sw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 8px; }
+.sw-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px; }
+.sw-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.sw-card-title { font-size: 0.82rem; font-weight: 800; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; }
+.sw-value { font-size: 1.1rem; font-weight: 900; }
+.sw-label { font-size: 0.85rem; font-weight: 700; margin-bottom: 8px; }
+.sw-bar-track { background: #ffffff0f; border-radius: 6px; height: 8px; overflow: hidden; margin-bottom: 10px; }
+.sw-bar-fill { height: 100%; border-radius: 6px; transition: width 0.4s ease; }
+.sw-desc { font-size: 0.74rem; color: var(--text-dim); line-height: 1.55; }
+.sw-aurora { font-size: 0.78rem; font-weight: 700; color: #c084fc; margin-top: 8px; padding-top: 8px; border-top: 1px solid #c084fc25; }
+.sw-alerts-label { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: #fb923c; margin: 16px 0 8px; }
+.sw-alert-card { background: #1a1206; border: 1px solid #fb923c30; border-left: 3px solid #fb923c; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 10px 14px; margin-bottom: 8px; }
+.sw-alert-title { font-size: 0.8rem; font-weight: 800; color: #fb923c; margin-bottom: 4px; }
+.sw-alert-body { font-size: 0.74rem; color: var(--text-dim); line-height: 1.5; }
+
 .eq-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; display: flex; align-items: center; gap: 16px; }
 .eq-mag { font-size: 1.4rem; font-weight: 900; min-width: 60px; }
 .eq-info { flex: 1; }
