@@ -15,8 +15,8 @@
 <header class="site-header">
   <div class="site-title">⛅ Millsvill Weather</div>
   <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-    <span class="rapid-badge">⚡ ALERT MODE — Updating every 60s</span>
-    <div class="site-meta">Updated: Apr 18, 2026, 1:41 AM</div>
+    
+    <div class="site-meta">Updated: Apr 18, 2026, 2:05 AM</div>
   </div>
 </header>
 
@@ -30,7 +30,7 @@
 <!-- ══ LOCAL TAB ══ -->
 <div id="tab-local" class="tab-content active">
 
-  <div class="summary-banner">☁️ 68°F in Bristol — Overcast. ⚠️ Severe Thunderstorm Warning, Tornado Watch in effect.
+  <div class="summary-banner">🌧️ 67°F in Bristol — Rain. No active alerts.
     <div class="summary-mcas" style="border-top:1px solid #ff9f1c30;margin-top:10px;padding-top:10px">
       <span class="summary-mcas-label">🧬 Comfort Index:</span>
       <span class="summary-mcas-value" style="background:#ff9f1c20;border:1px solid #ff9f1c;color:#ff9f1c">🟠 Rough Day</span>
@@ -51,49 +51,19 @@
         </div>
       </div>
 
-      <div class="alert-banner" style="background:#2a0818;border-left:4px solid #f72585;color:#f72585">
-      <div class="alert-top" onclick="toggleAlert('alert-bristolinhttpsapiweathergovalertsurnoid0')" style="cursor:pointer">
-        <span class="alert-event">⚠️ Severe Thunderstorm Warning</span>
-        <span class="alert-area">Elkhart, IN; Cass, MI; St. Joseph, MI</span>
-        <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-          <span class="alert-expires">Until 1:45 AM</span>
-          <span class="alert-expand-toggle" id="alert-bristolinhttpsapiweathergovalertsurnoid0-toggle" style="color:#f72585;font-weight:900;font-size:0.8rem;transition:transform 0.2s;display:inline-block">▼</span>
-        </div>
-      </div>
-      <div class="alert-detail" id="alert-bristolinhttpsapiweathergovalertsurnoid0-body" style="display:none">
-        <div class="alert-detail-divider" style="border-top:1px solid #f7258540;margin:8px 0"></div>
-        <div class="alert-headline">Severe Thunderstorm Warning issued April 18 at 1:29AM EDT until April 18 at 1:45AM EDT by NWS Northern Indiana</div>
-        <div class="alert-desc">At 129 AM EDT, severe thunderstorms were located along a line extending from Lawton to near Goshen to near Syracuse, moving northeast at 45 mph.<br><br>HAZARD...60 mph wind gusts.<br><br>SOURCE...Radar indicated.<br><br>IMPACT...Expect damage to roofs, siding, and trees.<br><br>Locations impacted include... Elkhart, Goshen, Dunlap, Simonton Lake, Middlebury, Constantine, Bristol, White Pigeon, Marcellus, Millersburg, New Paris, Benton, Union, Mottville, Vandalia, Paradise Lake, Donnell Lake, Jones, Corey Lake, and Shavehead Lake.<br><br>This includes Interstate 80 in Indiana between mile markers 93 and 108.</div>
-        <div class="alert-instr"><b>⚡ What to do:</b><br>A Tornado Watch remains in effect until 300 AM EDT for north central Indiana...and southwestern Michigan.<br><br>A tornado watch remains in effect for the warned area. Tornadoes can develop quickly from severe thunderstorms. Although a tornado is not immediately likely, if one is spotted act quickly and move to a place of safety inside a sturdy structure, such as a basement or small interior room.<br><br>For your protection move to an interior room on the lowest floor of a building.</div>
-      </div>
-    </div><div class="alert-banner" style="background:#2a1800;border-left:4px solid #ff9f1c;color:#ff9f1c">
-      <div class="alert-top" onclick="toggleAlert('alert-bristolinhttpsapiweathergovalertsurnoid1')" style="cursor:pointer">
-        <span class="alert-event">⚠️ Tornado Watch</span>
-        <span class="alert-area">Cass, IN; Elkhart, IN; Fulton, IN; Kosciusko, IN; La Porte, IN; Marshall, IN; Miami, IN; Pulaski, IN; St. Joseph, IN; Starke, IN; Wabash, IN; White, IN; Berrien, MI; Cass, MI</span>
-        <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-          <span class="alert-expires">Until 3:00 AM</span>
-          <span class="alert-expand-toggle" id="alert-bristolinhttpsapiweathergovalertsurnoid1-toggle" style="color:#ff9f1c;font-weight:900;font-size:0.8rem;transition:transform 0.2s;display:inline-block">▼</span>
-        </div>
-      </div>
-      <div class="alert-detail" id="alert-bristolinhttpsapiweathergovalertsurnoid1-body" style="display:none">
-        <div class="alert-detail-divider" style="border-top:1px solid #ff9f1c40;margin:8px 0"></div>
-        <div class="alert-headline">Tornado Watch issued April 17 at 10:44PM EDT until April 18 at 3:00AM EDT by NWS Northern Indiana</div>
-        <div class="alert-desc">THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 133 IN EFFECT UNTIL 3 AM EDT /2 AM CDT/ SATURDAY FOR THE FOLLOWING AREAS<br><br>IN INDIANA THIS WATCH INCLUDES 12 COUNTIES<br><br>IN NORTH CENTRAL INDIANA<br><br>KOSCIUSKO             ST. JOSEPH<br><br>IN NORTHERN INDIANA<br><br>CASS IN               ELKHART               FULTON IN LA PORTE              MARSHALL              MIAMI PULASKI               STARKE                WABASH WHITE<br><br>IN MICHIGAN THIS WATCH INCLUDES 2 COUNTIES<br><br>IN SOUTHWEST MICHIGAN<br><br>BERRIEN               CASS MI<br><br>THIS INCLUDES THE CITIES OF AKRON, BASS LAKE, BENTON HARBOR, BENTON HEIGHTS, BREMEN, BROOKSTON, BUCHANAN, CASSOPOLIS, CULVER, DOWAGIAC, EDWARDSBURG, ELKHART, FAIR PLAIN, FRANCESVILLE, GOSHEN, GRANGER, GRISSOM AFD, KNOX, LA PORTE, LOGANSPORT, MARCELLUS, MEDARYVILLE, MEXICO, MICHIGAN CITY, MISHAWAKA, MONON, MONTICELLO, NAPPANEE, NILES, NORTH JUDSON, NORTH MANCHESTER, PAW PAW LAKE, PERU, PLYMOUTH, ROCHESTER, ROYAL CENTER, SOUTH BEND, ST. JOSEPH, WABASH, WARSAW, WINAMAC, AND WINONA LAKE.</div>
-        
-      </div>
-    </div>
+      
 
       <div class="current-main">
         <div class="current-big">
-          <div class="current-emoji">☁️</div>
-          <div class="current-temp">68°F</div>
-          <div class="current-desc">Overcast</div>
-          <div class="current-feels">Feels like 62°F</div>
+          <div class="current-emoji">🌧️</div>
+          <div class="current-temp">67°F</div>
+          <div class="current-desc">Rain</div>
+          <div class="current-feels">Feels like 63°F</div>
         </div>
         <div class="current-details">
-          <div class="detail-row">💧 Humidity: <b>78%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>61°F</b></div>
-          <div class="detail-row">🌬 Wind: <b>23 mph SSW</b> (Gusts <b>45 mph</b>)</div>
-          <div class="detail-row">👁 Visibility: <b>33 mi</b></div>
+          <div class="detail-row">💧 Humidity: <b>87%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>63°F</b></div>
+          <div class="detail-row">🌬 Wind: <b>19 mph SSW</b> (Gusts <b>40 mph</b>)</div>
+          <div class="detail-row">👁 Visibility: <b>9 mi</b></div>
           <div class="detail-row">☀️ UV Index: <b>0</b></div>
           <div class="detail-row">🌡 Pressure: <b>976 hPa</b></div>
           <div class="detail-row">📈 High: <b>58°F</b> &nbsp;|&nbsp; 📉 Low: <b>35°F</b></div>
@@ -105,14 +75,14 @@
       <div class="aq-row">
         <span class="aq-pill">🟡 Air Quality: <b>Moderate</b></span>
         <a href="pollen.html" class="aq-pill aq-pill-link" title="View full pollen breakdown">🌿 Pollen: <b>None</b> <span style="font-size:0.75em;opacity:0.7">↗</span></a>
-        <span class="aq-pill">💨 PM2.5: <b>10</b></span>
+        <span class="aq-pill">💨 PM2.5: <b>8</b></span>
         <span class="aq-pill" style="color:#facc15">🍄 Mold: <b>Moderate</b></span>
       </div>
 
       <div class="mcas-breakdown" style="border-top:1px solid #ff9f1c25;margin-top:10px;padding-top:10px">
         <div class="mcas-breakdown-header" style="color:#ff9f1c;font-weight:700;font-size:0.85rem;margin-bottom:6px">
           🧬 Comfort Index — Rough Day
-          <span style="font-weight:400;opacity:0.6;font-size:0.8rem;margin-left:6px">score: 48/100</span>
+          <span style="font-weight:400;opacity:0.6;font-size:0.8rem;margin-left:6px">score: 52/100</span>
         </div>
         <div class="mcas-factors">
           <div class="mcas-factor-row" style="color:#ff9f1ccc">
@@ -120,25 +90,25 @@
             <span class="mcas-factor-text">Mold season low-moderate — baseline fungal spore load present</span>
           </div><div class="mcas-factor-row" style="color:#ff9f1ccc">
             <span class="mcas-factor-icon">💧</span>
-            <span class="mcas-factor-text">Humidity 78% — moderate trigger level</span>
+            <span class="mcas-factor-text">Humidity 87% — high mast cell trigger range</span>
           </div><div class="mcas-factor-row" style="color:#ff9f1ccc">
             <span class="mcas-factor-icon">💦</span>
-            <span class="mcas-factor-text">Dew point 61°F — elevated moisture, mast cell activation likely</span>
+            <span class="mcas-factor-text">Dew point 63°F — elevated moisture, mast cell activation likely</span>
           </div><div class="mcas-factor-row" style="color:#ff9f1ccc">
             <span class="mcas-factor-icon">💨</span>
-            <span class="mcas-factor-text">PM2.5 10 µg/m³ — mild particulate load</span>
+            <span class="mcas-factor-text">PM2.5 8 µg/m³ — mild particulate load</span>
           </div><div class="mcas-factor-row" style="color:#ff9f1ccc">
             <span class="mcas-factor-icon">🌬</span>
-            <span class="mcas-factor-text">Ozone 92 µg/m³ — mild elevation, watch breathing</span>
-          </div><div class="mcas-factor-row" style="color:#ff9f1ccc">
-            <span class="mcas-factor-icon">🌡</span>
-            <span class="mcas-factor-text">Pressure dropped 3 hPa in 3h — mild fall, monitor symptoms</span>
+            <span class="mcas-factor-text">Ozone 93 µg/m³ — mild elevation, watch breathing</span>
           </div>
         </div>
         <div class="mcas-good-factors" style="margin-top:6px">
           <div class="mcas-factor-row mcas-good" style="color:#06d6a090">
             <span class="mcas-factor-icon">🌿</span>
             <span class="mcas-factor-text">Pollen low — no significant pollen trigger</span>
+          </div><div class="mcas-factor-row mcas-good" style="color:#06d6a090">
+            <span class="mcas-factor-icon">🌡</span>
+            <span class="mcas-factor-text">Pressure stable (-2 hPa in 3h)</span>
           </div>
         </div>
       </div>
@@ -399,57 +369,27 @@
         
       </div>
       <div style="display:flex;align-items:center;gap:10px">
-        <span class="loc-emoji-small">🌧️</span>
+        <span class="loc-emoji-small">☁️</span>
         <span class="expand-toggle" id="expand-goshenin-toggle">details ▼</span>
       </div>
     </div>
-    <div class="alert-banner" style="background:#2a0818;border-left:4px solid #f72585;color:#f72585">
-      <div class="alert-top" onclick="toggleAlert('alert-gosheninhttpsapiweathergovalertsurnoid0')" style="cursor:pointer">
-        <span class="alert-event">⚠️ Severe Thunderstorm Warning</span>
-        <span class="alert-area">Elkhart, IN; Cass, MI; St. Joseph, MI</span>
-        <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-          <span class="alert-expires">Until 1:45 AM</span>
-          <span class="alert-expand-toggle" id="alert-gosheninhttpsapiweathergovalertsurnoid0-toggle" style="color:#f72585;font-weight:900;font-size:0.8rem;transition:transform 0.2s;display:inline-block">▼</span>
-        </div>
-      </div>
-      <div class="alert-detail" id="alert-gosheninhttpsapiweathergovalertsurnoid0-body" style="display:none">
-        <div class="alert-detail-divider" style="border-top:1px solid #f7258540;margin:8px 0"></div>
-        <div class="alert-headline">Severe Thunderstorm Warning issued April 18 at 1:29AM EDT until April 18 at 1:45AM EDT by NWS Northern Indiana</div>
-        <div class="alert-desc">At 129 AM EDT, severe thunderstorms were located along a line extending from Lawton to near Goshen to near Syracuse, moving northeast at 45 mph.<br><br>HAZARD...60 mph wind gusts.<br><br>SOURCE...Radar indicated.<br><br>IMPACT...Expect damage to roofs, siding, and trees.<br><br>Locations impacted include... Elkhart, Goshen, Dunlap, Simonton Lake, Middlebury, Constantine, Bristol, White Pigeon, Marcellus, Millersburg, New Paris, Benton, Union, Mottville, Vandalia, Paradise Lake, Donnell Lake, Jones, Corey Lake, and Shavehead Lake.<br><br>This includes Interstate 80 in Indiana between mile markers 93 and 108.</div>
-        <div class="alert-instr"><b>⚡ What to do:</b><br>A Tornado Watch remains in effect until 300 AM EDT for north central Indiana...and southwestern Michigan.<br><br>A tornado watch remains in effect for the warned area. Tornadoes can develop quickly from severe thunderstorms. Although a tornado is not immediately likely, if one is spotted act quickly and move to a place of safety inside a sturdy structure, such as a basement or small interior room.<br><br>For your protection move to an interior room on the lowest floor of a building.</div>
-      </div>
-    </div><div class="alert-banner" style="background:#2a1800;border-left:4px solid #ff9f1c;color:#ff9f1c">
-      <div class="alert-top" onclick="toggleAlert('alert-gosheninhttpsapiweathergovalertsurnoid1')" style="cursor:pointer">
-        <span class="alert-event">⚠️ Tornado Watch</span>
-        <span class="alert-area">Cass, IN; Elkhart, IN; Fulton, IN; Kosciusko, IN; La Porte, IN; Marshall, IN; Miami, IN; Pulaski, IN; St. Joseph, IN; Starke, IN; Wabash, IN; White, IN; Berrien, MI; Cass, MI</span>
-        <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-          <span class="alert-expires">Until 3:00 AM</span>
-          <span class="alert-expand-toggle" id="alert-gosheninhttpsapiweathergovalertsurnoid1-toggle" style="color:#ff9f1c;font-weight:900;font-size:0.8rem;transition:transform 0.2s;display:inline-block">▼</span>
-        </div>
-      </div>
-      <div class="alert-detail" id="alert-gosheninhttpsapiweathergovalertsurnoid1-body" style="display:none">
-        <div class="alert-detail-divider" style="border-top:1px solid #ff9f1c40;margin:8px 0"></div>
-        <div class="alert-headline">Tornado Watch issued April 17 at 10:44PM EDT until April 18 at 3:00AM EDT by NWS Northern Indiana</div>
-        <div class="alert-desc">THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 133 IN EFFECT UNTIL 3 AM EDT /2 AM CDT/ SATURDAY FOR THE FOLLOWING AREAS<br><br>IN INDIANA THIS WATCH INCLUDES 12 COUNTIES<br><br>IN NORTH CENTRAL INDIANA<br><br>KOSCIUSKO             ST. JOSEPH<br><br>IN NORTHERN INDIANA<br><br>CASS IN               ELKHART               FULTON IN LA PORTE              MARSHALL              MIAMI PULASKI               STARKE                WABASH WHITE<br><br>IN MICHIGAN THIS WATCH INCLUDES 2 COUNTIES<br><br>IN SOUTHWEST MICHIGAN<br><br>BERRIEN               CASS MI<br><br>THIS INCLUDES THE CITIES OF AKRON, BASS LAKE, BENTON HARBOR, BENTON HEIGHTS, BREMEN, BROOKSTON, BUCHANAN, CASSOPOLIS, CULVER, DOWAGIAC, EDWARDSBURG, ELKHART, FAIR PLAIN, FRANCESVILLE, GOSHEN, GRANGER, GRISSOM AFD, KNOX, LA PORTE, LOGANSPORT, MARCELLUS, MEDARYVILLE, MEXICO, MICHIGAN CITY, MISHAWAKA, MONON, MONTICELLO, NAPPANEE, NILES, NORTH JUDSON, NORTH MANCHESTER, PAW PAW LAKE, PERU, PLYMOUTH, ROCHESTER, ROYAL CENTER, SOUTH BEND, ST. JOSEPH, WABASH, WARSAW, WINAMAC, AND WINONA LAKE.</div>
-        
-      </div>
-    </div>
+    
     <div class="small-temp-row">
-      <span class="small-temp">68°F</span>
-      <span class="small-feels">feels 67°</span>
+      <span class="small-temp">67°F</span>
+      <span class="small-feels">feels 66°</span>
       <span class="small-hilo">59° / 35°</span>
     </div>
-    <div class="small-detail">Rain</div>
-    <div class="small-detail">💧 82% &nbsp; 🌬 13mph SW</div>
+    <div class="small-detail">Overcast</div>
+    <div class="small-detail">💧 89% &nbsp; 🌬 15mph SSW</div>
     <div class="small-detail">🟡 Moderate</div>
     <div class="small-detail" style="color:#ff9f1c;font-weight:700;margin-top:4px">🟠 Rough Day</div>
 
     <div class="loc-expanded" id="expand-goshenin-body" style="display:none">
       <div class="expanded-divider"></div>
       <div class="current-details" style="margin:12px 0">
-        <div class="detail-row">💧 Humidity: <b>82%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>62°F</b></div>
-        <div class="detail-row">🌬 Wind: <b>13 mph SW</b> (Gusts <b>28 mph</b>)</div>
-        <div class="detail-row">👁 Visibility: <b>10 mi</b></div>
+        <div class="detail-row">💧 Humidity: <b>89%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>64°F</b></div>
+        <div class="detail-row">🌬 Wind: <b>15 mph SSW</b> (Gusts <b>38 mph</b>)</div>
+        <div class="detail-row">👁 Visibility: <b>30 mi</b></div>
         <div class="detail-row">☀️ UV Index: <b>0</b></div>
         <div class="detail-row">🌡 Pressure: <b>976 hPa</b></div>
         <div class="detail-row">📈 High: <b>59°F</b> &nbsp;|&nbsp; 📉 Low: <b>35°F</b></div>
@@ -459,7 +399,7 @@
       <div class="aq-row" style="margin-bottom:12px">
         <span class="aq-pill">🟡 Air Quality: <b>Moderate</b></span>
         <a href="pollen.html" class="aq-pill aq-pill-link" title="View full pollen breakdown">🌿 Pollen: <b>None</b> <span style="font-size:0.75em;opacity:0.7">↗</span></a>
-        <span class="aq-pill">💨 PM2.5: <b>10</b></span>
+        <span class="aq-pill">💨 PM2.5: <b>8</b></span>
         <span class="aq-pill" style="color:#facc15">🍄 Mold: <b>Moderate</b></span>
       </div>
       <div class="expanded-section-label">🕐 Hourly</div>
@@ -672,44 +612,29 @@
         
       </div>
       <div style="display:flex;align-items:center;gap:10px">
-        <span class="loc-emoji-small">🌦️</span>
+        <span class="loc-emoji-small">🌧️</span>
         <span class="expand-toggle" id="expand-syracusein-toggle">details ▼</span>
       </div>
     </div>
-    <div class="alert-banner" style="background:#2a1800;border-left:4px solid #ff9f1c;color:#ff9f1c">
-      <div class="alert-top" onclick="toggleAlert('alert-syracuseinhttpsapiweathergovalertsurnoid0')" style="cursor:pointer">
-        <span class="alert-event">⚠️ Tornado Watch</span>
-        <span class="alert-area">Cass, IN; Elkhart, IN; Fulton, IN; Kosciusko, IN; La Porte, IN; Marshall, IN; Miami, IN; Pulaski, IN; St. Joseph, IN; Starke, IN; Wabash, IN; White, IN; Berrien, MI; Cass, MI</span>
-        <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-          <span class="alert-expires">Until 3:00 AM</span>
-          <span class="alert-expand-toggle" id="alert-syracuseinhttpsapiweathergovalertsurnoid0-toggle" style="color:#ff9f1c;font-weight:900;font-size:0.8rem;transition:transform 0.2s;display:inline-block">▼</span>
-        </div>
-      </div>
-      <div class="alert-detail" id="alert-syracuseinhttpsapiweathergovalertsurnoid0-body" style="display:none">
-        <div class="alert-detail-divider" style="border-top:1px solid #ff9f1c40;margin:8px 0"></div>
-        <div class="alert-headline">Tornado Watch issued April 17 at 10:44PM EDT until April 18 at 3:00AM EDT by NWS Northern Indiana</div>
-        <div class="alert-desc">THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 133 IN EFFECT UNTIL 3 AM EDT /2 AM CDT/ SATURDAY FOR THE FOLLOWING AREAS<br><br>IN INDIANA THIS WATCH INCLUDES 12 COUNTIES<br><br>IN NORTH CENTRAL INDIANA<br><br>KOSCIUSKO             ST. JOSEPH<br><br>IN NORTHERN INDIANA<br><br>CASS IN               ELKHART               FULTON IN LA PORTE              MARSHALL              MIAMI PULASKI               STARKE                WABASH WHITE<br><br>IN MICHIGAN THIS WATCH INCLUDES 2 COUNTIES<br><br>IN SOUTHWEST MICHIGAN<br><br>BERRIEN               CASS MI<br><br>THIS INCLUDES THE CITIES OF AKRON, BASS LAKE, BENTON HARBOR, BENTON HEIGHTS, BREMEN, BROOKSTON, BUCHANAN, CASSOPOLIS, CULVER, DOWAGIAC, EDWARDSBURG, ELKHART, FAIR PLAIN, FRANCESVILLE, GOSHEN, GRANGER, GRISSOM AFD, KNOX, LA PORTE, LOGANSPORT, MARCELLUS, MEDARYVILLE, MEXICO, MICHIGAN CITY, MISHAWAKA, MONON, MONTICELLO, NAPPANEE, NILES, NORTH JUDSON, NORTH MANCHESTER, PAW PAW LAKE, PERU, PLYMOUTH, ROCHESTER, ROYAL CENTER, SOUTH BEND, ST. JOSEPH, WABASH, WARSAW, WINAMAC, AND WINONA LAKE.</div>
-        
-      </div>
-    </div>
+    
     <div class="small-temp-row">
-      <span class="small-temp">71°F</span>
-      <span class="small-feels">feels 67°</span>
+      <span class="small-temp">68°F</span>
+      <span class="small-feels">feels 64°</span>
       <span class="small-hilo">61° / 35°</span>
     </div>
-    <div class="small-detail">Drizzle</div>
-    <div class="small-detail">💧 75% &nbsp; 🌬 18mph SSW</div>
+    <div class="small-detail">Rain</div>
+    <div class="small-detail">💧 85% &nbsp; 🌬 19mph SW</div>
     <div class="small-detail">🟡 Moderate</div>
     <div class="small-detail" style="color:#ff9f1c;font-weight:700;margin-top:4px">🟠 Rough Day</div>
 
     <div class="loc-expanded" id="expand-syracusein-body" style="display:none">
       <div class="expanded-divider"></div>
       <div class="current-details" style="margin:12px 0">
-        <div class="detail-row">💧 Humidity: <b>75%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>62°F</b></div>
-        <div class="detail-row">🌬 Wind: <b>18 mph SSW</b> (Gusts <b>32 mph</b>)</div>
-        <div class="detail-row">👁 Visibility: <b>32 mi</b></div>
+        <div class="detail-row">💧 Humidity: <b>85%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>63°F</b></div>
+        <div class="detail-row">🌬 Wind: <b>19 mph SW</b> (Gusts <b>39 mph</b>)</div>
+        <div class="detail-row">👁 Visibility: <b>18 mi</b></div>
         <div class="detail-row">☀️ UV Index: <b>0</b></div>
-        <div class="detail-row">🌡 Pressure: <b>975 hPa</b></div>
+        <div class="detail-row">🌡 Pressure: <b>974 hPa</b></div>
         <div class="detail-row">📈 High: <b>61°F</b> &nbsp;|&nbsp; 📉 Low: <b>35°F</b></div>
         <div class="detail-row">🌅 Sunrise: <b>6:58 AM</b> &nbsp;|&nbsp; 🌇 Sunset: <b>8:26 PM</b></div>
         <div class="detail-row">🌓 First Quarter</div>
@@ -933,7 +858,7 @@
         
       </div>
       <div style="display:flex;align-items:center;gap:10px">
-        <span class="loc-emoji-small">🌦️</span>
+        <span class="loc-emoji-small">🌧️</span>
         <span class="expand-toggle" id="expand-farmingtonmo-toggle">details ▼</span>
       </div>
     </div>
@@ -943,17 +868,17 @@
       <span class="small-feels">feels 68°</span>
       <span class="small-hilo">61° / 38°</span>
     </div>
-    <div class="small-detail">Drizzle</div>
-    <div class="small-detail">💧 96% &nbsp; 🌬 9mph WNW</div>
+    <div class="small-detail">Rain</div>
+    <div class="small-detail">💧 94% &nbsp; 🌬 7mph WNW</div>
     <div class="small-detail">🟢 Good</div>
     <div class="small-detail" style="color:#ff9f1c;font-weight:700;margin-top:4px">🟠 Rough Day</div>
 
     <div class="loc-expanded" id="expand-farmingtonmo-body" style="display:none">
       <div class="expanded-divider"></div>
       <div class="current-details" style="margin:12px 0">
-        <div class="detail-row">💧 Humidity: <b>96%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>65°F</b></div>
-        <div class="detail-row">🌬 Wind: <b>9 mph WNW</b> (Gusts <b>16 mph</b>)</div>
-        <div class="detail-row">👁 Visibility: <b>27 mi</b></div>
+        <div class="detail-row">💧 Humidity: <b>94%</b> &nbsp;|&nbsp; 💦 Dew Point: <b>64°F</b></div>
+        <div class="detail-row">🌬 Wind: <b>7 mph WNW</b></div>
+        <div class="detail-row">👁 Visibility: <b>10 mi</b></div>
         <div class="detail-row">☀️ UV Index: <b>0</b></div>
         <div class="detail-row">🌡 Pressure: <b>974 hPa</b></div>
         <div class="detail-row">📈 High: <b>61°F</b> &nbsp;|&nbsp; 📉 Low: <b>38°F</b></div>
@@ -1197,7 +1122,19 @@
 
   <div class="section-header">⚠️ Active National Alerts — Extreme &amp; Severe</div>
   <div class="nat-alert-list">
-    <div class="nat-alert-item" style="border-left-color:#ffe566">
+    <div class="nat-alert-item" style="border-left-color:#4361ee">
+        <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
+        <span class="nat-alert-area">Rock, WI</span>
+      </div><div class="nat-alert-item" style="border-left-color:#4361ee">
+        <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
+        <span class="nat-alert-area">Jefferson, WI; Rock, WI; Walworth, WI</span>
+      </div><div class="nat-alert-item" style="border-left-color:#4361ee">
+        <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
+        <span class="nat-alert-area">Milwaukee, WI; Racine, WI; Walworth, WI; Waukesha, WI</span>
+      </div><div class="nat-alert-item" style="border-left-color:#4361ee">
+        <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
+        <span class="nat-alert-area">Lewis, MO</span>
+      </div><div class="nat-alert-item" style="border-left-color:#ffe566">
         <span class="nat-alert-event" style="color:#ffe566">⚠️ Freeze Watch</span>
         <span class="nat-alert-area">Ochiltree; Oldham; Potter; Deaf Smith; Randall; Palo Duro Canyon</span>
       </div><div class="nat-alert-item" style="border-left-color:#ffe566">
@@ -1206,12 +1143,6 @@
       </div><div class="nat-alert-item" style="border-left-color:#ffe566">
         <span class="nat-alert-event" style="color:#ffe566">⚠️ Red Flag Warning</span>
         <span class="nat-alert-area">Northeast Weld County; Morgan County; Logan County; Washington County; Sedgwick County; Phillips County</span>
-      </div><div class="nat-alert-item" style="border-left-color:#f72585">
-        <span class="nat-alert-event" style="color:#f72585">⚠️ Severe Thunderstorm Warning</span>
-        <span class="nat-alert-area">Elkhart, IN; Cass, MI; St. Joseph, MI</span>
-      </div><div class="nat-alert-item" style="border-left-color:#f72585">
-        <span class="nat-alert-event" style="color:#f72585">⚠️ Severe Thunderstorm Warning</span>
-        <span class="nat-alert-area">Comanche, OK; Grady, OK; Stephens, OK</span>
       </div><div class="nat-alert-item" style="border-left-color:#ffe566">
         <span class="nat-alert-event" style="color:#ffe566">⚠️ Fire Weather Watch</span>
         <span class="nat-alert-area">Baca County Including Springfield and Eastern Comanche Grasslands</span>
@@ -1221,9 +1152,6 @@
       </div><div class="nat-alert-item" style="border-left-color:#4361ee">
         <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
         <span class="nat-alert-area">Cedar, MO</span>
-      </div><div class="nat-alert-item" style="border-left-color:#f72585">
-        <span class="nat-alert-event" style="color:#f72585">⚠️ Severe Thunderstorm Warning</span>
-        <span class="nat-alert-area">Comanche, OK; Cotton, OK; Jefferson, OK; Stephens, OK; Clay, TX</span>
       </div><div class="nat-alert-item" style="border-left-color:#4361ee">
         <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
         <span class="nat-alert-area">Neosho, KS</span>
@@ -1239,9 +1167,6 @@
       </div><div class="nat-alert-item" style="border-left-color:#4361ee">
         <span class="nat-alert-event" style="color:#4361ee">⚠️ Flood Warning</span>
         <span class="nat-alert-area">Vernon, MO</span>
-      </div><div class="nat-alert-item" style="border-left-color:#ffe566">
-        <span class="nat-alert-event" style="color:#ffe566">⚠️ Severe Thunderstorm Watch</span>
-        <span class="nat-alert-area">Benton, AR; Delaware, OK; Mayes, OK; Ottawa, OK; Wagoner, OK</span>
       </div>
   </div>
 
@@ -1264,12 +1189,12 @@
   <div class="sw-grid"><div class="sw-card">
       <div class="sw-card-header">
         <span class="sw-card-title">🌍 Geomagnetic Activity</span>
-        <span class="sw-value" style="color:#facc15">Kp 4.3</span>
+        <span class="sw-value" style="color:#4ade80">Kp 0.0</span>
       </div>
-      <div class="sw-label" style="color:#facc15">Active</div>
-      <div class="sw-bar-track"><div class="sw-bar-fill" style="width:48%;background:#facc15"></div></div>
+      <div class="sw-label" style="color:#4ade80">Quiet</div>
+      <div class="sw-bar-track"><div class="sw-bar-fill" style="width:0%;background:#4ade80"></div></div>
       <div class="sw-desc">The Kp index measures geomagnetic disturbance on a scale of 0–9. Values below 4 are normal. G-storm levels (G1–G5) begin at Kp 5 and can disrupt GPS, radio, power grids, and satellite operations.</div>
-      <div class="sw-aurora">🌌 Aurora likely visible from northern Canada only</div>
+      
     </div><div class="sw-card">
       <div class="sw-card-header">
         <span class="sw-card-title">☀️ Solar X-Ray Activity</span>
@@ -1286,84 +1211,84 @@
         <div class="eq-mag" style="color:#ffe566">M5.2</div>
         <div class="eq-info">
           <div class="eq-place">Kuril Islands</div>
-          <div class="eq-meta">1h 1m ago &nbsp;|&nbsp; Depth: 35km</div>
+          <div class="eq-meta">1h 25m ago &nbsp;|&nbsp; Depth: 35km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr27" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#06d6a0">M4.9</div>
         <div class="eq-info">
           <div class="eq-place">5 km NNW of Ōmachi, Japan</div>
-          <div class="eq-meta">1h 21m ago &nbsp;|&nbsp; Depth: 10km</div>
+          <div class="eq-meta">1h 45m ago &nbsp;|&nbsp; Depth: 10km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr1y" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#06d6a0">M4.5</div>
         <div class="eq-info">
           <div class="eq-place">34 km S of Jurm, Afghanistan</div>
-          <div class="eq-meta">2h 25m ago &nbsp;|&nbsp; Depth: 186.074km</div>
+          <div class="eq-meta">2h 49m ago &nbsp;|&nbsp; Depth: 186.074km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr1k" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.3</div>
         <div class="eq-info">
           <div class="eq-place">27 km S of Jurm, Afghanistan</div>
-          <div class="eq-meta">2h 46m ago &nbsp;|&nbsp; Depth: 198.753km</div>
+          <div class="eq-meta">3h 10m ago &nbsp;|&nbsp; Depth: 198.753km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr1e" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#06d6a0">M4.7</div>
         <div class="eq-info">
           <div class="eq-place">108 km ESE of Bitung, Indonesia</div>
-          <div class="eq-meta">3h 26m ago &nbsp;|&nbsp; Depth: 35km</div>
+          <div class="eq-meta">3h 50m ago &nbsp;|&nbsp; Depth: 35km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr16" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#06d6a0">M4.5</div>
         <div class="eq-info">
           <div class="eq-place">20 km N of Ollagüe, Chile</div>
-          <div class="eq-meta">3h 33m ago &nbsp;|&nbsp; Depth: 118.068km</div>
+          <div class="eq-meta">3h 57m ago &nbsp;|&nbsp; Depth: 118.068km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr12" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.0</div>
         <div class="eq-info">
           <div class="eq-place">242 km E of Kuril’sk, Russia</div>
-          <div class="eq-meta">5h 12m ago &nbsp;|&nbsp; Depth: 35km</div>
+          <div class="eq-meta">5h 36m ago &nbsp;|&nbsp; Depth: 35km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr09" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.1</div>
         <div class="eq-info">
           <div class="eq-place">127 km WNW of Ternate, Indonesia</div>
-          <div class="eq-meta">6h 11m ago &nbsp;|&nbsp; Depth: 35km</div>
+          <div class="eq-meta">6h 35m ago &nbsp;|&nbsp; Depth: 35km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqzn" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.1</div>
         <div class="eq-info">
           <div class="eq-place">83 km WSW of Modisi, Indonesia</div>
-          <div class="eq-meta">6h 19m ago &nbsp;|&nbsp; Depth: 121.035km</div>
+          <div class="eq-meta">6h 43m ago &nbsp;|&nbsp; Depth: 121.035km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqzl" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#06d6a0">M4.7</div>
         <div class="eq-info">
           <div class="eq-place">173 km WSW of Tual, Indonesia</div>
-          <div class="eq-meta">7h 21m ago &nbsp;|&nbsp; Depth: 73.716km</div>
+          <div class="eq-meta">7h 45m ago &nbsp;|&nbsp; Depth: 73.716km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqz7" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.1</div>
         <div class="eq-info">
           <div class="eq-place">99 km NE of Finschhafen, Papua New Guinea</div>
-          <div class="eq-meta">7h 54m ago &nbsp;|&nbsp; Depth: 94.504km</div>
+          <div class="eq-meta">8h 18m ago &nbsp;|&nbsp; Depth: 94.504km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqz1" target="_blank" class="eq-link">Details</a>
       </div><div class="eq-card">
         <div class="eq-mag" style="color:#ffe566">M5.4</div>
         <div class="eq-info">
           <div class="eq-place">northern Mid-Atlantic Ridge</div>
-          <div class="eq-meta">17h 1m ago &nbsp;|&nbsp; Depth: 10km</div>
+          <div class="eq-meta">17h 25m ago &nbsp;|&nbsp; Depth: 10km</div>
         </div>
         <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqta" target="_blank" class="eq-link">Details</a>
       </div>
@@ -1378,65 +1303,7 @@
 </div>
 
 <!-- ══ WARNING OVERLAY ══ -->
-<div id="warning-overlay" style="display:flex">
-    <div class="overlay-inner">
-      <div class="overlay-badge" style="color:#f72585">⛈️ SEVERE THUNDERSTORM WARNING</div>
-      <div class="overlay-area">Elkhart, IN; Cass, MI; St. Joseph, MI</div>
-      <div class="overlay-meta">
-        <span>⏰ Expires: <b>1:45 AM</b></span>
-        <span>🌀 Up to .75</span>
-      </div>
-      <div class="overlay-headline">Severe Thunderstorm Warning issued April 18 at 1:29AM EDT until April 18 at 1:45AM EDT by NWS Northern Indiana</div>
-      <div id="warning-map"></div>
-      <button class="overlay-close" onclick="document.getElementById('warning-overlay').style.display='none'">
-        Close overlay (warning still active)
-      </button>
-    </div>
-  </div>
-  <script>
-    (function() {
-      const polygon = [[-85.66,42.07],[-85.66,41.44],[-85.89,41.44],[-85.89,41.5],[-85.95,41.74],[-85.9,41.96],[-85.92,42.07],[-85.66,42.07]];
-      const center = [41.7206, -85.8197];
-      const wmap = L.map('warning-map').setView(center, 8);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap'
-      }).addTo(wmap);
 
-      // Animated RainViewer radar on warning map — preload all frames, animate via opacity
-      fetch('https://api.rainviewer.com/public/weather-maps.json')
-        .then(r => r.json())
-        .then(rv => {
-          const past = rv.radar?.past || [];
-          if (!past.length) return;
-          const wlayers = past.map(function(frame) {
-            return L.tileLayer('https://tilecache.rainviewer.com' + frame.path + '/256/{z}/{x}/{y}/2/1_1.png', {
-              opacity: 0, attribution: 'RainViewer'
-            }).addTo(wmap);
-          });
-          let widx = wlayers.length - 1;
-          function showWFrame(i) {
-            wlayers.forEach(function(l, j) { l.setOpacity(j === i ? 0.7 : 0); });
-          }
-          showWFrame(widx);
-          setInterval(function() { widx = (widx + 1) % wlayers.length; showWFrame(widx); }, 600);
-        }).catch(function() {});
-
-      if (polygon && polygon.length > 2) {
-        const latlngs = polygon.map(([lon, lat]) => [lat, lon]);
-        L.polygon(latlngs, {
-          color: '#f72585',
-          fillColor: '#f72585',
-          fillOpacity: 0.15,
-          weight: 3
-        }).addTo(wmap);
-        wmap.fitBounds(latlngs, { padding: [40, 40] });
-      }
-
-      L.circleMarker([41.7206, -85.8197], {
-        radius: 8, color: '#fff', fillColor: '#f72585', fillOpacity: 1, weight: 2
-      }).bindPopup('<b>Bristol, IN</b>').addTo(wmap);
-    })();
-  </script>
 
 <!-- ══ NEW DATA BANNER ══ -->
 <div id="update-banner" onclick="location.reload()">🔄 New weather data available — refresh</div>
@@ -1538,7 +1405,23 @@
 
   window.addEventListener('load', function() { initLocalMap(); });
 
-  setTimeout(function() { location.reload(); }, 60000);
+  
+  // Poll for new data every 2 minutes — shows refresh banner when crawl has run
+  (function() {
+    var GENERATED = '2026-04-18T06:05:14.950Z';
+    setInterval(function() {
+      fetch('/api/data', { cache: 'no-store' })
+        .then(function(r) { return r.json(); })
+        .then(function(d) {
+          if (d.generated && d.generated !== GENERATED) {
+            var b = document.getElementById('update-banner');
+            if (b) b.style.display = 'flex';
+          }
+        })
+        .catch(function() {}); // fails silently on GitHub Pages
+    }, 2 * 60 * 1000);
+  })();
+  
 </script>
 </body>
 </html>
